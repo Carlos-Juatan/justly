@@ -1,0 +1,75 @@
+
+header {
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* espaço entre os itens filhos */
+    padding: 0 240px;
+    background-color: #272d3467;
+    z-index: 1; /* o padrão é 0 e pondo 1 fica emcima, 2 fica mais emcima etc... */
+}
+
+.logo {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px; /* é o espaço vertical entre os items */
+    /* row-gap é o espaço horizontal entre os itens */
+}
+
+.logo-img {
+    width: 40%;
+    height: auto;
+}
+
+.logo-text {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.logo-text:hover {
+    color: #cbda6d;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+li:hover {
+    color: #cbda6d;
+    cursor: pointer;
+}
+
+#search-icon {
+    color: #fff;
+    cursor: pointer;
+}
+
+#search-icon:hover {
+    color: #cbda6d;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+}
