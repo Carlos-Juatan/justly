@@ -3,6 +3,7 @@
 @import './layouts/home.css';
 @import './layouts/destaks.css';
 @import './layouts/signature.css';
+@import './layouts/services.css';
 
 * {
     margin: 0;
