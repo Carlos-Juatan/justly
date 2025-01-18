@@ -4,6 +4,7 @@
 @import './layouts/destaks.css';
 @import './layouts/signature.css';
 @import './layouts/services.css';
+@import './layouts/testimonials.css';
 
 * {
     margin: 0;
