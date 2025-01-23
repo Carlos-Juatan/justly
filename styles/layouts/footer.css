@@ -102,7 +102,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 70px 0 10px;
+    padding: 0 80px 0 10px; /* trocar o 80 para 70px por causa da barra lateral do opera gx */
 }
 
 .post-content p {
