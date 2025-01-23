@@ -5,6 +5,8 @@
 @import './layouts/signature.css';
 @import './layouts/services.css';
 @import './layouts/testimonials.css';
+@import './layouts/user_form.css';
+@import './layouts/footer.css';
 
 * {
     margin: 0;
